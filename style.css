@@ -1,0 +1,332 @@
+
+     #pag1{
+      width: 100%;
+      height: 100vh;
+      background-image: url(Pagina_inicial/h1_hero1.jpg) ;
+      background-blend-mode: multiply;
+      background-color: rgba(0, 0, 0, 45%);
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+     }
+     /* background-blend-mode multiply(escurecer) */
+
+
+     *{
+      margin: 0;
+     }
+     
+     .logo1{
+          margin-left: 120px;
+          margin-top: 40px;
+          vertical-align: middle;
+          margin-bottom: 40px;
+     }
+
+     .telefone{
+     display: inline-block;
+     color: white;
+     margin-left: 730px;
+     margin-top: 1;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     }
+     
+     .link{
+          margin-left: 50px;
+          margin-top: 1;
+          display: inline-block;
+          color: white;
+          font-size: 20px;
+          margin-bottom: 1;
+         background-color: goldenrod;
+         border: solid goldenrod 1px;
+          padding: 14px 24px;
+          font-family: Arial, Helvetica, sans-serif;
+     }
+
+
+     .link:hover{
+          background-color: transparent;
+     }
+
+     .menu{
+         vertical-align: middle;
+          display: inline-block;
+          color: white;
+          margin-left: 20px;
+     }
+    
+     .textopagina1{
+          color: white;
+          margin-left: 250px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 200px;
+          font-size: 15px;
+     }
+
+     .textopagina2{
+          color: white;
+          margin-left: 250px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 50px;
+          width: 30%;
+     }
+
+     .botao{
+          display: inline-block;
+          color: white;
+          position: absolute;
+          top:  50%;
+          right: 20%;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 20px;     
+          border: 2px;
+          border-color: orange;
+     }
+
+     
+    .botao a{
+          display: inline-block;
+          color: white;
+        position: relative;
+          font-family: Arial, Helvetica, sans-serif;
+          height: 70px;
+          width: 70px;
+          border-radius: 50%;
+          background-color: white; 
+          vertical-align: middle;
+          border: solid #D6A04C 2PX;
+          margin-left: 30px;
+    }
+
+
+    .botao a::after{
+     content: "";
+     position: absolute;
+     width: 72px;
+     height: 72px;
+     border-radius: 50%;
+     border: solid 30px rgba(255, 255, 255, 10%);
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+    }
+
+    .botao svg {  fill: orange;  
+          height: 35px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          border: 2px;
+          opacity: gray;
+     }
+
+     .imagem{
+          width: 80px;
+          height: 80px;          
+     }
+
+     .mouse{
+          fill: orange;
+          height: 50px;
+          top: 700px;
+          margin-left: 230px;
+          position: absolute;
+       
+     }
+
+     .textopaginainicial{
+          background-color: #d6a04c;
+          width: 20%;
+          height:10vh;
+          margin-left: 600px;
+          margin-top: 160px;
+          padding: 25px 30px;
+          font-size: 20px;
+          color: white;
+          position: absolute;
+          bottom: 0;
+          right: 30%;
+          font-weight: 400px;
+          font-family: Arial, Helvetica, sans-serif;
+     }
+     
+     .textopaginainicial2{
+          background-color: #d6a04c;
+          width: 30%;
+          height:10vh;
+          margin-left: 600px;
+          margin-top: 160px;
+          padding: 25px 30px;
+          font-size: 20px;
+          color: white;
+          position: absolute;
+          bottom: 0;
+          right: 0%;
+          font-weight: 400px;
+          font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .pagina2{
+               margin-top: 230px;
+               width: 100%;
+               height: 160vh;
+               background-blend-mode: multiply;
+               background-color: #0b0016;
+               background-repeat: no-repeat;
+               background-position: center;
+               position: relative;
+               color: white;
+     }
+
+     .texto2pagina{
+      padding-top: 90px;
+      font-size: 30px;
+      padding-left: 100px;
+      font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .texto3pagina{          
+      padding-top: 50px;
+      font-size: 30px;
+      padding-left: 200px;
+      font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .imagemhomemchapeu{
+          height: 100px;
+          margin-left: 200px;
+          margin-top: 50px;
+     }
+
+     .texto4pagina{
+      top: 150px;
+      position: absolute;
+      padding-top: 10px;
+      font-size: 20px;
+      padding-left: 800px;
+      font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .botaolearn{
+    left: 102vh;
+    top: 350px;
+    position: absolute;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #D6A04C;
+    display: inline-block;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    border-radius: 0px;
+     }
+
+     .imagemMulherdecostas{
+          position: absolute;
+          top: 430px;
+          margin-left: 700px;
+          margin-top: 45px;
+     }
+
+     .texto5pagina{
+          position: absolute;
+          top: 900px;
+          margin-left: 100px;
+          font-size: 30px;
+          font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .imagemtriangulosazuis{
+          position: absolute;
+          top: 1000px;
+          margin-left: 200px;
+          }
+
+     .comercial{
+          font-size: 30px;
+          color: white;
+          position: absolute;
+          top: 375px;
+          font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .arctetura{
+          font-size: 20px;
+          color: white;
+          position: absolute;
+          top: 425px;
+          font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .imagempredioesquisito{
+          position: absolute;
+          display: inline-block;
+           margin-left: 50px;
+     }
+
+     .Residential{
+          font-size: 30px;
+          font-family: Arial, Helvetica, sans-serif;
+          display: inline-block;
+          position: absolute;
+          top: 375px;
+          margin-left:50px;
+     }
+
+     .arctetura2{
+          font-size: 20px;
+          color: white;
+        position: relative;
+          top: 90px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-left: 435px;
+     }
+
+     .arctetura3{
+          font-size: 25px;
+          color: white;
+          position: absolute;
+          top: 375px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-left: 900px;
+          text-align: center;
+          
+     }
+
+     .imagem3predio{
+          position: absolute;
+          display: inline-block;
+           margin-left:500px;
+     }
+
+     .arctetura4{
+          font-size: 21px;
+          color: white;
+        position: relative;
+          top: 65px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-left: 900px;
+     }
+
+     .pagina3{
+          margin-top: 160px;
+          width: 171.8%;
+          height: 100vh;
+          background-blend-mode: multiply;
+          background-color: #1E1E1E;
+          background-repeat: no-repeat;
+          background-position: center;
+          position: relative;
+          color: white;
+          right: 200px;
+}
+
+.projects1{
+font-size: 100px;
+opacity: brown;
+
+}
